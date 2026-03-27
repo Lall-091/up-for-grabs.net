@@ -1133,6 +1133,46 @@ ul.tags li {
   fill: currentColor;
 }
 
+.pagination-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 2em 0;
+  align-items: center;
+}
+
+.pagination-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.25rem;
+  color: var(--body-color);
+}
+
+.pagination-goto {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+
+.pagination-goto-input {
+  width: 70px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #2E7BA9;
+  background: var(--databox-bg);
+  color: var(--body-color);
+  font-size: 14px;
+  text-align: center;
+}
+
+.pagination-goto-input::-webkit-inner-spin-button,
+.pagination-goto-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 @media screen and (max-width: 670px) {
   #view-mode {
     position: fixed;
