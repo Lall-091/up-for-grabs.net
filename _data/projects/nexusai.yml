@@ -1,11 +1,16 @@
+---
 name: NexusAI
 desc: A full-stack AI agent platform built with Python and TypeScript.
 site: https://github.com/P-r-e-m-i-u-m/NexusAI
 tags:
-  - python
-  - typescript
-  - ai
-  - generative-ai
+- python
+- typescript
+- ai
+- generative-ai
 upforgrabs:
   name: good first issue
   link: https://github.com/P-r-e-m-i-u-m/NexusAI/issues?q=label%3A%22good+first+issue%22
+stats:
+  issue-count: 34
+  last-updated: '2026-04-18T08:43:57Z'
+  fork-count: 0
